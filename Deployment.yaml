@@ -8,11 +8,11 @@ spec:
   type: Recreate 
  selector: 
   matchLabels: 
-   app: my-app 
+   app: my-app-java
  template: 
    metadata: 
     labels: 
-     app: my-app 
+     app: my-app-java 
      env: prod 
    spec: 
     containers: 
